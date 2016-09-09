@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Boia Faus</string>
+    <string name="welcome_msg">Benvenuto</string>
+    <string name="sign_out">Esci</string>
+    <string name="contacts_permission_rationale">Accesso ai dati informativi è richiesto!</string>
+    <string name="invite_menu_label">Invita altre persone</string>
+    <string name="invitation_message">Tieniti aggiornato per sapere cosa accade nel Boia Faus!</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">Boia Faus App</string>
+    <string name="sign_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Nuovo Config</string>
+    <string name="cause_crash">Cause Crash</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="name_facebook">Login con Facebook</string>
+    <string name="facebook_app_id">298384793859003</string>
+    <string name="text"></string>
+</resources>

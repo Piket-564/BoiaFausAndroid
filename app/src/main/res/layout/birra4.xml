@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="275dp"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/birra_4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="267dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="La Lingera è una Pils bionda, secca e con un amaro erbaceo in Chiusura."
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textAlignment="center"
+            android:textSize="25dp" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="294dp"
+            android:text="L&apos;applicazione è stata creata senza fini di lucro ed è Open Source tutti  i file di realizzazione e per i codici basta una mail all&apos;indirizzo luca.iadicicco@vallauri.edu o con il bottone in basso. Invito a visitare la Pagina Facebook e la Pagina di Tripadvisor."
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@color/abc_input_method_navigation_guard"
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:theme="@style/AppTheme" />
+
+        <FrameLayout
+            android:layout_width="245dp"
+            android:layout_height="118dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pagina Facebook"
+                android:textSize="25dp"
+                android:id="@+id/fbpage"
+                android:layout_gravity="center_horizontal|top"
+                style="@style/com_facebook_button" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/trippage"
+                android:layout_gravity="center_horizontal|bottom"
+                style="@style/com_facebook_loginview_silver_style"
+                android:text="Pagina Tripadvisor"
+                android:textSize="25dp"/>
+        </FrameLayout>
+
+        <Button
+            style="@style/AppTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Source Code"
+            android:id="@+id/java"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+</LinearLayout>

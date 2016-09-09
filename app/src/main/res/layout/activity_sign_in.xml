@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sign_in_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@mipmap/ic_launcher">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|center_vertical"
+        android:background="#c3ffffff">
+
+        <FrameLayout
+            android:layout_width="198dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center">
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_gravity="center_horizontal|bottom"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="343dp"
+            android:layout_height="172dp"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="40dp"
+            android:text="Iscriviti per tenerti aggiornato degli eventi del Boia Faus!"
+            android:textAlignment="center"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+    </FrameLayout>
+
+</FrameLayout>
